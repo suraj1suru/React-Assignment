@@ -5,6 +5,7 @@ import JSONDATA from '../MOCK_DATA1.json'
 import '../App.css';
 import StarRating from "./rating";
 
+
 import {  useNavigate } from 'react-router-dom';
 
 function Dashboard() {
@@ -14,7 +15,7 @@ function Dashboard() {
       {JSONDATA.map((val) => {
       return (
         
-      <Card className="pos" style={{ width: "26rem" ,  flex: '1 1 1 33%' }}>
+      <Card className="pos" style={{ width: "26rem" ,  flex: '1 1 1  33%' }}>
        
         <Card.Body>
           <h4>{val.title}</h4>

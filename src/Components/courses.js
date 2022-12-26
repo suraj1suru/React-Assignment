@@ -6,11 +6,11 @@ import "../App.css";
 import logo1 from "../Assests/exclamation-circle-fill.svg";
 import JOSNDATA1 from "../MOCK_DATA2.json";
 import Navbarr from "../navbar";
-
+import { useState } from "react";
 
 
 function Courses() {
-
+ const[over, setOver] = useState(true);
 
   return (
   <>
@@ -19,7 +19,7 @@ function Courses() {
       
       {JOSNDATA1.map((val) => {
         return (
-          <div className="course" style={{  width: "26rem", flex: "1 1 1 33%" }}>
+          <div className="course" style={{  width: "26rem", flex: "1 1  33%" }}>
             <img className="logo" src={logo1} />
             <Card
               
@@ -28,7 +28,7 @@ function Courses() {
               <Card.Body>
                 <Card.Text>{val.description}</Card.Text>
               </Card.Body>
-              <Button className="btn">Start</Button>
+              <Button className="btn" onClick={() =>{setOver(false)}}>{over ?( "start" ) : ("course is completed")}</Button>
             </Card>
           </div>
         );
