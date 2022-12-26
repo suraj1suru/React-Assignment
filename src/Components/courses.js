@@ -1,39 +1,18 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
 import "../App.css";
-import logo1 from "../Assests/exclamation-circle-fill.svg";
 import JOSNDATA1 from "../MOCK_DATA2.json";
-import Navbarr from "../navbar";
-import { useState } from "react";
-
+import Navbar from "../navbar";
+import Activities from "./Activities";
 
 function Courses() {
- const[over, setOver] = useState(true);
-
   return (
-  <>
-  <Navbarr/>
-    <div  style={{ display: "flex", flexWrap: "wrap" }}>
-      
-      {JOSNDATA1.map((val) => {
-        return (
-          <div className="course" style={{  width: "26rem", flex: "1 1  33%" }}>
-            <img className="logo" src={logo1} />
-            <Card
-              
-            >
-              <h3>{val.title}</h3>
-              <Card.Body>
-                <Card.Text>{val.description}</Card.Text>
-              </Card.Body>
-              <Button className="btn" onClick={() =>{setOver(false)}}>{over ?( "start" ) : ("course is completed")}</Button>
-            </Card>
-          </div>
-        );
-      })}
-    </div>
+    <>
+      <Navbar />
+      <div style={{ display: "flex", flexWrap: "wrap" }}>
+        {JOSNDATA1.map((val) => {
+          return <Activities val={val} />;
+        })}
+      </div>
     </>
   );
 }
