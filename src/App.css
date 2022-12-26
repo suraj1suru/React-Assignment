@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+
+.pos{
+  background-color: silver;
+  margin: 1rem;
+  padding: 2rem;
+  border: '1px solid black'
+   
+}
+
+.colorrr{
+  background-color: rgb(55, 126, 193);
+color: white;
+width: 25%;
+height: 50%;
+}
+
+.course{
+  background-color: silver;
+  height: 50%;
+  width: 50%;
+ 
+  margin: 3rem;
+  padding: 3rem;
+}
+
+.logo{
+  width: 3rem;
+ height: 3rem;
+}
+
+.btn{
+  width: 6rem;
+  height: 2rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(82, 82, 225);
+}
+
+.btn2{
+
+  color: rgb(255, 255, 255);
+  background-color: rgb(99, 99, 128);
+}
+
+.Ali{
+  margin-left: 15rem;
+}

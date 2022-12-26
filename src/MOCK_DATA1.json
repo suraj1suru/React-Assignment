@@ -1,0 +1,38 @@
+[
+    {
+        "title": "An Introduction to Unconcious Bias",
+        "startDate": "17/07/22",
+        "endDate": "07/08/22",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+    },
+    {
+      
+        "title": "Understanding Bias and Avoiding Common Mistakes",
+        "startDate": "13/06/22",
+        "endDate": "08/07/22",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"   },
+    {
+       
+        "title": "Diversity, Equity and Inclusion in Conversation",
+        "startDate": "01/07/22",
+        "endDate": "16/09/22",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"   },
+    {
+        
+        "title": "Empathy and Allyship",
+        "startDate": "19/01/22",
+        "endDate": "07/02/22",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"   },
+    {
+       
+        "title": "Micro-Behavioes and Other Messsages",
+        "startDate": "03/12/22",
+        "endDate": "22/08/22",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"   },
+    {
+       
+        "title": "GDPR Essentials",
+        "startDate": "27/11/22",
+        "endDate": "03/02/22",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"   }
+]
